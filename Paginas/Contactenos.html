@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+
+    <meta name="keywords" content="lasaña, comida, domicilio, pasta">
+    
+    <link rel="stylesheet" href="..\CSS\estilos.css">
+
+</head>
+<body>
+
+    <!-- encabezado de pagina-->
+    <header>
+        <h1>Tu lasaña</h1>            
+          <p>Puedes comparalo desde cualquier parte de Bogota</p>
+    </header>  
+
+    <!-- menu-->
+        <nav>
+            <ul>
+                <li><a href="..\index.html"> Inicio</a></li>
+                <li><a href="..\Paginas\Nosotros.html">Nosotros</a></li>
+                <li><a href="..\Paginas\Menu1.html">Menu</a></li>
+                <li><a href="..\Paginas\Contactenos.html">Contantenos</a></li>
+                <Li><a href="..\Paginas\Compras.html">Compras</a></Li>    
+            </ul>
+      
+        </nav>
+
+        <!-- forma-->
+
+    <main class="form">
+        <form action="">
+        
+            <section>
+                <h2>Contactenos</h2>
+    
+                <fieldset>
+                    <legend class="titulo1">Datos personales</legend>
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" name="nombre" placeholder="Nombre"><br>
+                    <label for="apellido"> Apellido:</label>
+                    <input type="text" name="apellido" placeholder="Apellido"><br>
+                    <label for="email"> Email:</label>
+                    <input type="email" name="email" placeholder="Email"><br>
+                    <label for="direccion"> Direccion</label>
+                    <input type="text" name="direccion" placeholder="Direccion"><br>
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea name="comentarios" cols="100" rows="5"></textarea>
+            
+                </fieldset>
+       
+            </section>
+        
+             <section>
+                 
+                <fieldset>
+                    <legend class="titulo1">Decea recibir publicidad</legend>
+                    <div>Si</div>
+                    <input type="radio" name="si" value="si" />
+                    <div>No</div>
+                    <input type="radio" name="no" value="no" />
+                    <div>Acepta las condiciones <a href=""> Leer Mas..</a></div>
+                    <input type="checkbox" name="acepta" value="1">
+                    <hr>
+                    <select name="Genero">
+                        <option selected value="Elija Su Genero">Elija Su Genero</option>
+                        <option value="Men">hombre</option>
+                        <option value="Woman">mujer</option>
+                    
+                    
+                </fieldset>
+    
+             </select>
+          
+        
+        <hr><input type="submit" value="Enviar">
+        <input type="reset" value="Reseteo">
+    
+    </main>
+   
+    <!-- pie de pagina-->
+    <footer class="piedepagina">
+        <p>Tu lasaña Malagon</p>
+    </footer>
+    
+</form>
+</body>

@@ -1,0 +1,36 @@
+/*grid*/
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabeza nav nav"/*1 fila*/
+    "cabeza cont cont"/*2 fila*/
+    "pie pie pie"/*3 fila*/
+    ;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 100px 525px 50px;
+    
+}    
+
+ /*nombro cada item*/   
+header{
+    grid-area: cabeza;
+       
+        
+}
+
+nav{
+    grid-area: nav;
+}
+.base{
+    grid-area: cont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    padding: 10px;
+    margin: 0px 20px 0px;
+            
+}
+footer{
+    grid-area: pie;
+}
