@@ -133,7 +133,9 @@ main {
   align-items: center;
   height: 180px;
   justify-content: center;
-  margin: 50px 70px 100px; }
+  margin: 50px 70px 100px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;}
 
 .cajanoso {
   display: flex;
