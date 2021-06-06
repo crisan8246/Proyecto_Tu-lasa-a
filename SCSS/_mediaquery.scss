@@ -1,0 +1,41 @@
+/*media queries*/
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px){
+    #grid{
+        display: grid;
+        grid-template-areas: 
+        "cabeza nav nav"/*1 fila*/
+        "cabeza cont cont"/*2 fila*/
+        "pie pie pie"/*3 fila*/;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 525px 50px;
+    }    
+
+
+}
+/*tablet*/
+@media (min-width: 600px) and (max-width: 768px){
+    #grid{
+        display: grid;
+        grid-template-areas: 
+        "cabeza nav nav"/*1 fila*/
+        "cabeza none cont"/*2 fila*/
+        "pie pie pie"/*3 fila*/;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 525px 50px;
+    } 
+
+}
+/*escritorio*/
+@media(min-width: 1200px){
+    #grid{
+        display: grid;
+        grid-template-areas: 
+        "cabeza nav nav"/*1 fila*/
+        "cabeza none cont"/*2 fila*/
+        "pie pie pie"/*3 fila*/;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 100px 525px 50px;
+    } 
+
+}

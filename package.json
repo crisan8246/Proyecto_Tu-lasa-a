@@ -1,7 +1,6 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/styless.scss css/estilos.css",
@@ -13,5 +12,15 @@
   "dependencies": {
     "node-sass": "^6.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisan8246/Proyecto_Tu-lasa-a.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crisan8246/Proyecto_Tu-lasa-a/issues"
+  },
+  "homepage": "https://github.com/crisan8246/Proyecto_Tu-lasa-a#readme",
+  "description": ""
 }

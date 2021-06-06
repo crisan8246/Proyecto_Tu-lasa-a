@@ -27,11 +27,7 @@ footer {
 /*menu*/
 nav {
   background-color: black;
-  height: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif }
-ul{
-  margin: 0px;
-}
+  height: 50px; }
 
 nav ul li {
   float: left;
@@ -65,7 +61,7 @@ header {
   line-height: 30px;
   border: 1px solid black;
   background-color: #a40606;
-  background-image: linear-gradient(140deg, #a40606 0%, #d98324 74%);}
+  background-image: linear-gradient(140deg, #a40606 0%, #d98324 74%); }
 
 body {
   /*gradiente*/
@@ -326,3 +322,28 @@ main {
 
 .carousel-dark .carousel-caption {
   color: #000; }
+
+/*media queries*/
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "cabeza nav nav" "cabeza cont cont" "pie pie pie";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 525px 50px; } }
+
+/*tablet*/
+@media (min-width: 600px) and (max-width: 768px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "cabeza nav nav" "cabeza none cont" "pie pie pie";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 525px 50px; } }
+
+/*escritorio*/
+@media (min-width: 1200px) {
+  #grid {
+    display: grid;
+    grid-template-areas: "cabeza nav nav" "cabeza none cont" "pie pie pie";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 525px 50px; } }
